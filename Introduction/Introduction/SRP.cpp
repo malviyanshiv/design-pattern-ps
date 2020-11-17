@@ -10,11 +10,11 @@ Single Responsibility Principle
 /*
 === the voilating way ===
 */
-struct Journal {
+struct JournalOld {
 	std::string title;
 	std::vector<std::string> entries;
 
-	Journal(std::string title) : title(title) {}
+	JournalOld(std::string title) : title(title) {}
 
 	void add(std::string& entry) {
 		this->entries.push_back(entry);
