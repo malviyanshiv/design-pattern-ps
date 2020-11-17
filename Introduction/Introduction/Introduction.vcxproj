@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ISP.cpp" />
     <ClCompile Include="LSP.cpp" />
     <ClCompile Include="OCP.cpp" />
     <ClCompile Include="SRP.cpp" />
