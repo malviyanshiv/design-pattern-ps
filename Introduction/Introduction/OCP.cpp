@@ -106,7 +106,7 @@ struct BetterFilter : IFilter<Product> {
 	}
 };
 
-int main() {
+int main_OCP() {
 
 	Product apple{ "Apple", Color::Green, Size::Small };
 	Product tree{ "Tree", Color::Green, Size::Large };

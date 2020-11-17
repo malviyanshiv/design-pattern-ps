@@ -21,5 +21,8 @@
     <ClCompile Include="OCP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
